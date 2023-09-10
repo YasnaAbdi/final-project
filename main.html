@@ -1,0 +1,1901 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main-style.css" />
+    <title>NikeProject</title>
+  </head>
+  <body>
+    <!-- Head -->
+    <div class="head d-flex flex-column position-relative">
+      <section id="head-information" class="d-lg-block d-none">
+        <div class="head-info d-flex justify-content-between">
+          <div class="col-1 d-flex text-center">
+            <div class="col head-icon">
+              <a href="#">
+                <svg height="24px" width="24px" fill="#111" viewBox="0 0 26 32">
+                  <path
+                    d="M14.4 5.52v-.08q0-.56.36-1t.92-.44 1 .36.48.96-.36 1-.96.4l-.24.08.08.12-.08.44-.16 1.28q.08.08.08.16l-.16.8q-.08.16-.16.24l-.08.32q-.16.64-.28 1.04t-.2.64V12q-.08.4-.12.64t-.28.8q-.16.32 0 1.04l.08.08q0 .24.2.56t.2.56q.08 1.6-.24 2.72l.16.48q.96.48.56 1.04l.4.16q.96.48 1.36.84t.8.76q.32.08.48.24l.24.08q1.68 1.12 3.36 2.72l.32.24v.08l-.08.16.24.16h.08q.24.16.32.16h.08q.08 0 .16-.08l.16-.08q.16-.16.32-.24h.32q.08 0 0 .08l-.32.16-.4.48h.56l.56.08q.24-.08.4-.16l.4-.24q.24-.08.48.16h.08q.08.08-.08.24l-.96.88q-.4.32-.72.4l-1.04.72q-.08.08-.16 0l-.24-.32-.16-.32-.2-.28-.24-.32-.2-.24-.16-.2-.32-.24q-.16 0-.32-.08l-1.04-.8q-.24 0-.56-.24-1.2-1.04-1.6-1.28l-.48-.32-.96-.16q-.48-.08-1.28-.48l-.64-.32q-.64-.32-.88-.32l-.32-.16q-.32-.08-.48-.16l-.16-.16q-.16 0-.32.08l-1.6.8-2 .88q-.8.64-1.52 1.04l-.88.4-1.36.96q-.16.16-.32 0l-.16.16q-.24.08-.32.08l-.32.16v.16h-.16l-.16.24q-.16.32-.32.36t-.2.12-.08.12l-.16.16-.24.16-.36-.04-.48.08-.32.08q-.4.08-.64-.12t-.4-.6q-.16-.24.16-.4l.08-.08q.08-.08.24-.08h.48L1.6 26l.32-.08q0-.16.08-.24.08-.08.24-.08v-.08q-.08-.16-.08-.32-.08-.16-.04-.24t.08-.08h.04l.08.24q.08.4.24.24l.08-.16q.08-.16.24-.16l.16.16.16-.16-.08-.08q0-.08.08-.08l.32-.32q.4-.48.96-.88 1.12-.88 2.4-1.36.4-.4.88-.4.32-.56.96-1.2.56-.4.8-.56.16-.32.4-.32H10l.16-.16q.16-.08.24-.16v-.4q0-.4.08-.64t.4-.24l.32-.32q-.16-.32-.16-.72h-.08q-.16-.24-.16-.48-.24-.4-.32-.64h-.24q-.08.24-.4.32l-.08.16q-.32.56-.56.84t-.88.68q-.4.4-.56.88-.08.24 0 .48l-.08.16h.08q0 .16.08.16h.08q.16.08.16.2t-.24.08-.36-.16-.2-.12l-.24.24q-.16.24-.32.2t-.08-.12l.08-.08q.08-.16 0-.16l-.64.16q-.08.08-.2 0t.04-.16l.4-.16q0-.08-.08-.08-.32.16-.64.08l-.4-.08-.08-.08q0-.08.08-.08.32.08.8-.08l.56-.24.64-.72.08-.16q.32-.64.68-1.16t.76-.84l.08-.32q.16-.32.32-.56t.4-.64l.24-.32q.32-.48.72-.48l.24-.24q.08-.08.08-.24l.16-.16-.08-.08q-.48-.4-.48-.72-.08-.56.36-.96t.88-.36.68.28l.16.16q.08 0 .08.08l.32.16v.24q.16.16.16.24.16-.24.48-.56l.4-1.28q0-.32.16-.64l.16-.24v-.16l.24-.96h.16l.24-.96q.08-.24 0-.56l-.32-.8z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="col head-icon">
+              <svg height="24px" width="24px" fill="#111" viewBox="0 0 39 33">
+                <path
+                  d="M10.94 25.626l-4.236-5.501L.201 22.28l3.734-5.756L.11 10.777l6.59 2.031 4.026-5.474.14 6.785 6.64 2.175-6.594 2.446.028 6.886zm.824 7.239l13.952-16.393L11.806.107h11.697l14.871 16.389-14.8 16.369h-11.81z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+
+          <div class="head-item text-end align-items-center d-flex">
+            <div class="border-0">
+              <a href="#">
+                <span>Find a Store</span>
+              </a>
+            </div>
+            <div class="position-relative">
+              <div>
+                <a href="#">
+                  <span class="help">Help</span>
+                </a>
+              </div>
+              <div class="help-bar position-absolute text-start">
+                <div>
+                  <span class="fs-6 text-dark">Help</span>
+                </div>
+                <div class="d-flex flex-column text-muted">
+                  <span>Order status</span>
+                  <span>Dispatch and Delivery</span>
+                  <span>Returns</span>
+                  <span>Contact Us</span>
+                  <span>Privacy Policy</span>
+                  <span>Terms of Sale</span>
+                  <span>Terms of Use</span>
+                  <span>Send Us Feedback</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <a href="#">
+                <span>Join Us</span>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span>Sign In</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="navbar" class="z-3">
+        <div class="">
+          <nav class="navbar-nike bg-white d-flex justify-content-between">
+            <div class="col-lg">
+              <a href="#">
+                <svg
+                  aria-hidden="true"
+                  class=""
+                  focusable="false"
+                  viewBox="0 0 20 20"
+                  role="img"
+                  width="75px"
+                  height="65px"
+                  fill="none"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <ul
+              class="head-item text-lg-center col-7 align-items-center d-lg-flex d-none"
+            >
+              <li>
+                <div class="nav-item">
+                  <div>
+                    <a href="#">
+                      <span class="">New & Featured</span>
+                    </a>
+                  </div>
+                  <div
+                    class="nav-bar-head position-absolute text-start d-flex justify-content-between"
+                  >
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">New & Featured</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>New Arrivals</span>
+                        <span>Latest Shoes</span>
+                        <span>Latest Clothing</span>
+                        <span>SNKRS Launch Calendar</span>
+                        <span>Get'Em in SNKRS</span>
+                        <span>Customize with Nike By You</span>
+                        <span>Bestsellers</span>
+                        <span>Member Exclusive</span>
+                        <span>National Team Kits</span>
+                        <span>Top Kicks Under $8.000.000</span>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">Shop Icons</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>Air Force 1</span>
+                        <span>Air Jordan 1</span>
+                        <span>Air Max</span>
+                        <span>Dunk</span>
+                        <span>Blazer</span>
+                        <span>Pegasus</span>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">New For Men</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>Shoes</span>
+                        <span>Clothing</span>
+                        <span>Accessories</span>
+                        <span>Shop All New</span>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">New For Women</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>Shoes</span>
+                        <span>Clothing</span>
+                        <span>Accessories</span>
+                        <span>Shop All New</span>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">New For Kids</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>Shoes</span>
+                        <span>Clothing</span>
+                        <span>Accessories</span>
+                        <span>Shop All New</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="nav-item">
+                  <div>
+                    <a href="#">
+                      <span class="">Men</span>
+                    </a>
+                  </div>
+                  <div
+                    class="nav-bar-head position-absolute text-start d-flex justify-content-between"
+                  >
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">Featured</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>New Releases</span>
+                        <span>Bestsellers</span>
+                        <span>Member Exclusive</span>
+                        <span>Jordan</span>
+                        <span>Retro Running</span>
+                        <span>National Team Kits</span>
+                        <span>Customize with Nike By You</span>
+                        <span>Last Sizes Available</span>
+                        <span>Sale</span>
+                        <span>Running Shoe Finder</span>
+                        <span>Sustainable Materials</span>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">Shoes</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>All Shoes</span>
+                        <span>Newest Sneakers</span>
+                        <span>Lifestyle</span>
+                        <span>Jordan</span>
+                        <span>Running</span>
+                        <span>Basketball</span>
+                        <span>Football</span>
+                        <span>Gym and Training</span>
+                        <span>Sandals and Slides</span>
+                        <span>Last Sizes Available</span>
+                        <span>Customize with Nike By You</span>
+                        <span>Top Picks Under $8.000.000</span>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark">Clothing</span>
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>All Clothing</span>
+                          <span>Tops and T-Shirts</span>
+                          <span>Shorts</span>
+                          <span>Pants and Leggings</span>
+                          <span>Hoodies and Sweatshirts</span>
+                          <span>Jackets and Gilets</span>
+                          <span>Jerseys and Kits</span>
+                          <span>Jordan</span>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark"
+                            >Accessories and Equipment</span
+                          >
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>All Accessories and Equipment</span>
+                          <span>Bags and Backpacks</span>
+                          <span>Socks</span>
+                          <span>Hats and Headwear</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark">Shop By Sport</span>
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>Running</span>
+                          <span>Football</span>
+                          <span>Basketball</span>
+                          <span>Gym and Training</span>
+                          <span>Yoga</span>
+                          <span>Skateboarding</span>
+                          <span>Tennis</span>
+                          <span>Golf</span>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark">Shop By Brand</span>
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>Nike Sportswear</span>
+                          <span>NikeLab</span>
+                          <span>Nike By You</span>
+                          <span>Jordan</span>
+                          <span>ACG</span>
+                          <span>NBA</span>
+                          <span>Nike SB</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="nav-item">
+                  <div>
+                    <a href="#">
+                      <span class="">Women</span>
+                    </a>
+                  </div>
+                  <div
+                    class="nav-bar-head position-absolute text-start d-flex justify-content-between"
+                  >
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">Featured</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>New Releases</span>
+                        <span>Bestsellers</span>
+                        <span>Member Exclusive</span>
+                        <span>Jordan</span>
+                        <span>Retro Running</span>
+                        <span>National Team Kits</span>
+                        <span>Customize with Nike By You</span>
+                        <span>Last Sizes Available</span>
+                        <span>Sale</span>
+                        <span>Running Shoe Finder</span>
+                        <span>Sustainable Materials</span>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">Shoes</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>All Shoes</span>
+                        <span>Newest Sneakers</span>
+                        <span>Lifestyle</span>
+                        <span>Jordan</span>
+                        <span>Running</span>
+                        <span>Basketball</span>
+                        <span>Football</span>
+                        <span>Gym and Training</span>
+                        <span>Sandals and Slides</span>
+                        <span>Last Sizes Available</span>
+                        <span>Customize with Nike By You</span>
+                        <span>Top Picks Under $8.000.000</span>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark">Clothing</span>
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>All Clothing</span>
+                          <span>Tops and T-Shirts</span>
+                          <span>Shorts</span>
+                          <span>Pants and Leggings</span>
+                          <span>Hoodies and Sweatshirts</span>
+                          <span>Jackets and Gilets</span>
+                          <span>Jerseys and Kits</span>
+                          <span>Jordan</span>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark"
+                            >Accessories and Equipment</span
+                          >
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>All Accessories and Equipment</span>
+                          <span>Bags and Backpacks</span>
+                          <span>Socks</span>
+                          <span>Hats and Headwear</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark">Shop By Sport</span>
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>Running</span>
+                          <span>Football</span>
+                          <span>Basketball</span>
+                          <span>Gym and Training</span>
+                          <span>Yoga</span>
+                          <span>Skateboarding</span>
+                          <span>Tennis</span>
+                          <span>Golf</span>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark">Shop By Brand</span>
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>Nike Sportswear</span>
+                          <span>NikeLab</span>
+                          <span>Nike By You</span>
+                          <span>Jordan</span>
+                          <span>ACG</span>
+                          <span>NBA</span>
+                          <span>Nike SB</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="nav-item d-lg-block d-none">
+                  <div>
+                    <a href="#">
+                      <span class="">Kids</span>
+                    </a>
+                  </div>
+                  <div
+                    class="nav-bar-head position-absolute text-start d-flex justify-content-between"
+                  >
+                    <div class="d-flex flex-column">
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark">Featured</span>
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>New Releases</span>
+                          <span>Bestsellers</span>
+                          <span>Member Exclusive</span>
+                          <span>Jordan</span>
+                          <span>National Team Kits</span>
+                          <span>Customize with Nike By You</span>
+                          <span>Last Sizes Available</span>
+                          <span>Sale</span>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark">Kids By Age</span>
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>Older Kid (7 - 14 years)</span>
+                          <span>Younger Kids (4 - 7 years)</span>
+                          <span>Babies & Toddlers (0 - 4 years)</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-column text-muted">
+                          <span>Older Boys (7 - 14 years)</span>
+                          <span>Younger Boys (4 - 7 years)</span>
+                          <span>Babies and Toddlers (0 - 4 years)</span>
+                          <span>Lifestyle</span>
+                          <span>Jordan</span>
+                          <span>Running</span>
+                          <span>Basketball</span>
+                          <span>Football</span>
+                          <span>Sandals and Slides</span>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark">Boy's Clothing</span>
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>Tops and T-shirts</span>
+                          <span>Hoodies and Sweatshirts</span>
+                          <span>Pants and Leggings</span>
+                          <span>Shorts</span>
+                          <span>All Boys' Clothing</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-column text-muted">
+                          <span>Older Girls (7 - 14 years)</span>
+                          <span>Younger Girls (4 - 7 years)</span>
+                          <span>Babies and Toddlers (0 - 4 years)</span>
+                          <span>Lifestyle</span>
+                          <span>Jordan</span>
+                          <span>Running</span>
+                          <span>Basketball</span>
+                          <span>Football</span>
+                          <span>Sandals and Slides</span>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark">Girl's Clothing</span>
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>Tops and T-shirts</span>
+                          <span>Hoodies and Sweatshirts</span>
+                          <span>Pants and Leggings</span>
+                          <span>Shorts</span>
+                          <span>All Girls' Clothing</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark"
+                            >Accessories and Equipment</span
+                          >
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>All Accessories and Equipment</span>
+                          <span>Bags and Backpacks</span>
+                          <span>Socks</span>
+                          <span>Hats and Headwear</span>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <div>
+                          <span class="fs-6 text-dark">Shop By Sport</span>
+                        </div>
+                        <div class="d-flex flex-column text-muted">
+                          <span>Running</span>
+                          <span>Basketball</span>
+                          <span>Football</span>
+                          <span>Gym and Training</span>
+                          <span>Tennis</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="nav-item d-xl-block d-none">
+                  <div>
+                    <a href="#">
+                      <span class="">Sale</span>
+                    </a>
+                  </div>
+                  <div
+                    class="nav-bar-head position-absolute text-start d-flex justify-content-between"
+                  >
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">Featured</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>Shop All Sale</span>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">Men's Sale</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>Shoes</span>
+                        <span>Clothing</span>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">Women's Sale</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>Shoes</span>
+                        <span>Clothing</span>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div>
+                        <span class="fs-6 text-dark">Kid's Sale</span>
+                      </div>
+                      <div class="d-flex flex-column text-muted">
+                        <span>Shoes</span>
+                        <span>Clothing</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="nav-item d-xl-block d-none">
+                  <div>
+                    <a href="#">
+                      <span class="">SNKRS</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="col-lg d-flex">
+              <div
+                class="search col position-relative align-content-between d-lg-flex d-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="nav-icon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  width="24px"
+                  height="24px"
+                  fill="none"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"
+                  ></path>
+                </svg>
+                <form role="search" class="z-0">
+                  <input type="search" placeholder="Search" />
+                </form>
+              </div>
+
+              <div class="col-lg m-2 align-content-center d-lg-block d-none">
+                <svg
+                  aria-hidden="true"
+                  class="nav-icon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  width="24px"
+                  height="24px"
+                  fill="none"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"
+                  ></path>
+                </svg>
+              </div>
+
+              <div class="col-lg m-2 align-content-center d-lg-none d-block">
+                <svg
+                  aria-hidden="true"
+                  class="nav-icon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  width="24px"
+                  height="24px"
+                  fill="none"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"
+                  ></path>
+                </svg>
+              </div>
+
+              <div class="col-lg mt-lg-2 m-2 m-lg-0 align-content-center">
+                <svg
+                  aria-hidden="true"
+                  class="nav-icon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  width="24px"
+                  height="24px"
+                  fill="none"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"
+                  ></path>
+                </svg>
+              </div>
+
+              <div class="col-lg m-2 align-content-center d-lg-none d-block">
+                <svg
+                  aria-hidden="true"
+                  class="nav-icon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  width="24px"
+                  height="24px"
+                  fill="none"
+                  data-var="glyph"
+                  style="display: inline-block"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12 3a4.5 4.5 0 00-4.5 4.5H9a3 3 0 013-3V3zM7.5 7.5A4.5 4.5 0 0012 12v-1.5a3 3 0 01-3-3H7.5zM12 12a4.5 4.5 0 004.5-4.5H15a3 3 0 01-3 3V12zm4.5-4.5A4.5 4.5 0 0012 3v1.5a3 3 0 013 3h1.5zM4.5 21v-3H3v3h1.5zm0-3a3 3 0 013-3v-1.5A4.5 4.5 0 003 18h1.5zm3-3h9v-1.5h-9V15zm9 0a3 3 0 013 3H21a4.5 4.5 0 00-4.5-4.5V15zm3 3v3H21v-3h-1.5z"
+                  ></path>
+                </svg>
+              </div>
+              <div
+                class="col-lg m-2 me-0 align-content-center d-lg-none d-block"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="nav-icon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  width="24px"
+                  height="24px"
+                  fill="none"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    d="M21 5.25H3M21 12H3m18 6.75H3"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <div class="head-info text-center pb-2 pt-2">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <span class="d-block w-100 head-item fw-bold"
+                >Hello Nike App
+              </span>
+              <span class="d-block w-100 head-item text-decoration-underline"
+                >Download the app to access everything Nike. Get Your
+                Great</span
+              >
+            </div>
+            <div class="carousel-item">
+              <span class="d-block w-100 head-item fw-bold"
+                >New Styles on Sale: Up to 40% Off
+              </span>
+              <span class="d-block w-100 head-item text-decoration-underline"
+                >Shop All Our New Markdowns</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- body -->
+    <div class="body align-content-center text-center user-select-none">
+      <section id="shopping" class="text-start text-md-center">
+        <div>
+          <a href="#">
+            <div>
+              <img
+                data-qa="image-media-img"
+                alt="Nike. Just Do It"
+                class="w-100"
+                src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1248,c_limit/d8ae4bab-e246-45d6-9e1a-7537fe70f5e7/nike-just-do-it.jpg"
+                data-landscape-url="https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/d8ae4bab-e246-45d6-9e1a-7537fe70f5e7/nike-just-do-it.jpg"
+                data-portrait-url="https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/0c968f36-5ed6-419e-bd1b-4d33579de308/nike-just-do-it.jpg"
+                data-image-loaded-class="guL_1FMX"
+              />
+            </div>
+            <div class="d-flex flex-column pt-5 pb-5">
+              <span class="fst-normal pb-0 mb-0">Just in</span>
+              <span class="title text-wrap">NIKE READY PACK</span>
+              <span class="m-1 p-2"
+                >The season is here. Start yours prepared with the best in
+                touch, agility, precision and speed.</span
+              >
+              <button class="btn bg-black text-white m-md-auto">
+                Shop All
+              </button>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- Swiper -->
+      <section id="shoe" class="text-start text-md-center">
+        <div class="d-flex justify-content-between">
+          <div>
+            <div class="text-start section-title">Best of Air Max</div>
+          </div>
+          <div class="d-flex flex-row justify-content-between">
+            <div class="text-start pe-3 d-flex align-items-center">Shop</div>
+            <div
+              class="swiper-button-prev swiper-button-prev-shoe position-relative"
+            ></div>
+            <div
+              class="swiper-button-next swiper-button-next-shoe position-relative"
+            ></div>
+          </div>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper d-flex flex-column flex-md-row">
+            <div class="swiper-slide">
+              <img src="Images/swiperSlides/slide1.webp" alt="" />
+              <div class="d-flex flex-column">
+                <div class="pt-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="fw-bold">
+                      <span>Nike Air Max Pulse </span>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-currency-rupee"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+
+                      <div class="fw-bold"><span>13.995</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-secondary">Women's Shoes</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/swiperSlides/slide2.webp" alt="" />
+              <div class="d-flex flex-column">
+                <div class="pt-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="col-9 fw-bold">
+                      <span>Nike Air Max Pulse </span>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-currency-rupee"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="fw-bold"><span>13.995</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-secondary">Women's Shoes</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/swiperSlides/slide3.webp" alt="" />
+              <div class="d-flex flex-column">
+                <div class="pt-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="col-9 fw-bold">
+                      <span>Nike Air Max Pulse </span>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-currency-rupee"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="fw-bold"><span>13.995</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-secondary">Women's Shoes</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/swiperSlides/slide4.webp" alt="" />
+              <div class="d-flex flex-column">
+                <div class="pt-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="col-9 fw-bold">
+                      <span>Nike Air Max Pulse </span>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-currency-rupee"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="fw-bold"><span>13.995</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-secondary">Women's Shoes</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/swiperSlides/slide5.webp" alt="" />
+              <div class="d-flex flex-column">
+                <div class="pt-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="col-9 fw-bold">
+                      <span>Nike Air Max Pulse </span>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-currency-rupee"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="fw-bold"><span>13.995</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-secondary">Women's Shoes</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/swiperSlides/slide6.webp" alt="" />
+              <div class="d-flex flex-column">
+                <div class="pt-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="col-9 fw-bold">
+                      <span>Nike Air Max Pulse </span>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-currency-rupee"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="fw-bold"><span>13.995</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-secondary">Women's Shoes</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/swiperSlides/slide7.webp" alt="" />
+              <div class="d-flex flex-column">
+                <div class="pt-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="col-9 fw-bold">
+                      <span>Nike Air Max Pulse </span>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-currency-rupee"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="fw-bold"><span>13.995</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-secondary">Women's Shoes</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/swiperSlides/slide8.webp" alt="" />
+              <div class="d-flex flex-column">
+                <div class="pt-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="col-9 fw-bold">
+                      <span>Nike Air Max Pulse </span>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-currency-rupee"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="fw-bold"><span>13.995</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-secondary">Women's Shoes</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/swiperSlides/slide9.webp" alt="" />
+              <div class="d-flex flex-column">
+                <div class="pt-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="col-9 fw-bold">
+                      <span>Nike Air Max Pulse </span>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-currency-rupee"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="fw-bold"><span>13.995</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-secondary">Women's Shoes</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/swiperSlides/slide10.webp" alt="" />
+              <div class="d-flex flex-column">
+                <div class="pt-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="col-9 fw-bold">
+                      <span>Nike Air Max Pulse </span>
+                    </div>
+                    <div class="d-flex">
+                      <div>
+                        <span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-currency-rupee"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="fw-bold"><span>13.995</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-secondary">Women's Shoes</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="feature">
+        <div>
+          <div class="col-9 text-start section-title pb-3">Featured</div>
+          <div class="position-relative">
+            <video
+              id="video"
+              class="w-100"
+              src="Videos/nike-mainpage-video.mp4"
+              muted
+            >
+              Your browser does not support the video tag.
+            </video>
+            <div>
+              <button
+                id="delete-btn"
+                onclick="videoPlay()"
+                class="btn bg-white text-black m-auto w-auto position-absolute"
+                style="right: 85%; bottom: 10%; z-index: 99"
+              >
+                Watch now
+              </button>
+            </div>
+          </div>
+          <div class="d-flex flex-column pt-5 pb-5 text-start text-md-center">
+            <span class="title text-wrap">STEP INTO WHAT FEELS GOOD</span>
+            <span class="m-1 p-2"
+              >Cause everyone should know the feeling of running in the perfect
+              pain</span
+            >
+            <a href="#">
+              <button class="btn bg-black text-white m-auto w-auto">
+                Find Your Shoe
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="gear-up">
+        <div class="text-start section-title">Gear Up</div>
+        <div class="d-flex flex-row">
+          <div class="w-50 pe-4 ps-3">
+            <div class="d-flex flex-row justify-content-end">
+              <div class="text-start pe-3 d-flex align-items-center">Shop</div>
+              <div
+                class="swiper-button-prev swiper-button-prev-men position-relative"
+              ></div>
+              <div
+                class="swiper-button-next swiper-button-next-men position-relative"
+              ></div>
+            </div>
+            <div class="swiper men-shop">
+              <div class="swiper-wrapper d-flex flex-column flex-md-row">
+                <div class="swiper-slide">
+                  <img src="Images/menShop/1.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/menShop/2.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/menShop/3.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/menShop/4.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/menShop/5.jpg" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/menShop/6.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/menShop/7.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-50 ps-4 pe-3">
+            <div class="d-flex flex-row justify-content-end">
+              <div class="text-start pe-3 d-flex align-items-center">Shop</div>
+              <div
+                class="swiper-button-prev swiper-button-prev-women position-relative"
+              ></div>
+              <div
+                class="swiper-button-next swiper-button-next-women position-relative"
+              ></div>
+            </div>
+            <div class="swiper women-shop">
+              <div class="swiper-wrapper d-flex flex-column flex-md-row">
+                <div class="swiper-slide">
+                  <img src="Images/womenShop/1.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/womenShop/2.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/womenShop/3.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/womenShop/4.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/womenShop/5.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/womenShop/6.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="Images/womenShop/7.webp" alt="" />
+                  <div class="d-flex flex-column">
+                    <div class="pt-3">
+                      <div class="d-flex justify-content-between">
+                        <div class="col-9 fw-bold">
+                          <span>Nike Air Max Pulse </span>
+                        </div>
+                        <div class="d-flex">
+                          <div>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-currency-rupee"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="fw-bold"><span>13.995</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-secondary">Women's Shoes</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="dont-miss">
+        <div class="col-9 text-start section-title pb-3">Don't Miss</div>
+        <div>
+          <a href="#">
+            <img src="Images/dontmiss/1.webp" class="w-100" alt="" />
+          </a>
+        </div>
+        <div>
+          <div class="d-flex flex-column pt-5 pb-5 text-start text-md-center">
+            <span class="title text-wrap">FLIGHT ESSENTIALS</span>
+            <span class="m-1 p-2"
+              >Your built-to-last, all-week wears--but with style only Jordan
+              Brand can deliver.</span
+            >
+            <a href="#">
+              <button class="btn bg-black text-white m-auto w-auto">
+                Shop
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="essentials">
+        <div class="col-9 text-start section-title pb-3">The Essentials</div>
+        <div class="d-flex flex-column flex-md-row">
+          <div class="col mb-3 mb-md-0">
+            <a href="#"
+              ><img src="Images/essentials/1.webp" alt="" />
+              <button class="bg-white w-auto text-black btn">Men's</button></a
+            >
+          </div>
+          <div class="col mb-3 mb-md-0">
+            <a href="#"
+              ><img src="Images/essentials/2.webp" alt="" />
+              <button class="bg-white w-auto text-black btn">Women's</button></a
+            >
+          </div>
+          <div class="col mb-3 mb-md-0">
+            <a href="#"
+              ><img src="Images/essentials/3.webp" alt="" />
+              <button class="bg-white w-auto text-black btn">Kid's</button></a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="select-bar">
+        <div class="nike-bar text-start d-flex flex-column flex-md-row">
+          <div class="col d-flex flex-column">
+            <span class="text-black pb-3">Icons</span>
+            <a href="#"><span>Air Force 1</span></a>
+            <a href="#"><span>Huarache</span></a>
+            <a href="#"><span>Air Max 90</span></a>
+            <a href="#"><span>Air Max 95</span></a>
+            <div class="hidden-nike-bar d-flex flex-column">
+              <a href="#"> <span>Air Max 97</span></a>
+              <a href="#"> <span>Air Max 270</span></a>
+              <a href="#"> <span>Air Max 720</span></a>
+              <a href="#"> <span>All Air Max</span></a>
+              <a href="#"> <span>Vapormax</span></a>
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="text-black pb-3">Shoes</span>
+            <a href="#"><span>Air Force1</span></a>
+            <a href="#"><span>Custom Shoes</span></a>
+            <a href="#"><span>Jordan Shoes</span></a>
+            <a href="#"><span>Running Shoes</span></a>
+            <div class="hidden-nike-bar d-flex flex-column">
+              <a href="#"> <span>Basketball Shoes</span></a>
+              <a href="#"> <span>Football Shoes</span></a>
+              <a href="#"> <span>Gym & Training Shoes</span></a>
+              <a href="#"> <span>Lifestyle Shoes</span></a>
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="text-black pb-3">Clothing</span>
+            <a href="#"><span>All Clothing</span></a>
+            <a href="#"><span>Modest Wear</span></a>
+            <a href="#"><span>Hoodies & Pullovers</span></a>
+            <a href="#"><span>Shirts & Tops</span></a>
+            <div class="hidden-nike-bar d-flex flex-column">
+              <a href="#"> <span>Jackets</span></a>
+              <a href="#"> <span>Compression & Nike Pro</span></a>
+              <a href="#"> <span>Trousers & Leggings</span></a>
+              <a href="#"> <span>Shorts</span></a>
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="text-black pb-3">Kids'</span>
+            <a href="#"><span>Infant & Toddler Shoes</span></a>
+            <a href="#"><span>Kids' Shoes</span></a>
+            <a href="#"><span>Kids' Jordan Shoes</span></a>
+            <a href="#"><span>Kids' Basketball Shoes</span></a>
+            <div class="hidden-nike-bar d-flex flex-column">
+              <a href="#"> <span>Kids' Running Shoes</span></a>
+              <a href="#"> <span>Kids' Clothing</span></a>
+              <a href="#"> <span>Kids' Backpacks</span></a>
+              <a href="#"> <span>Kids' Socks</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- footer -->
+    <div class="footer bg-black pb-2 position-relative">
+      <section id="footer">
+        <div
+          class="justify-content-between text-start d-flex flex-column flex-md-row"
+        >
+          <div class="d-flex flex-column flex-md-row w-50">
+            <div class="d-flex flex-column footer-title col me-5">
+              <a href="#"><span>FIND A STORE</span></a>
+              <a href="#"> <span>BECOME A MEMBER</span></a>
+              <a href="#"> <span>SEND US FEEDBACK</span></a>
+              <a href="#"> <span>STUDENTS DISCOUNTS</span></a>
+            </div>
+            <div class="d-flex flex-column col pe-3">
+              <a href="#" class="footer-title">
+                <span class="text-white">GET HELP</span>
+              </a>
+              <div class="d-flex flex-column footer-bar">
+                <a href="#"><span>Order Status</span></a>
+                <a href="#"> <span>Delivery</span></a>
+                <a href="#"> <span>Returns</span></a>
+                <a href="#"> <span>Payment Options</span></a>
+                <a href="#"> <span>Contact Us On Nike.com Inquiries</span></a>
+                <a href="#"> <span>Contact Us On All Other Inquiries</span></a>
+              </div>
+            </div>
+            <div class="d-flex flex-column col">
+              <a href="#" class="footer-title">
+                <span class="text-white">ABOUT NIKE</span>
+              </a>
+              <div class="d-flex flex-column footer-bar">
+                <a href="#"> <span>News</span></a>
+                <a href="#"> <span>Careers</span></a>
+                <a href="#"> <span>Investors</span></a>
+                <a href="#"> <span>Sustainability</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-title d-flex">
+            <a href="#"
+              ><span>
+                <svg
+                  class="social-link-icon ms-3"
+                  width="30px"
+                  fill="#555"
+                  height="30px"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 0C9.813 0 7.8.533 5.96 1.6A11.793 11.793 0 0 0 1.6 5.96C.533 7.8 0 9.813 0 12s.533 4.2 1.6 6.04a11.793 11.793 0 0 0 4.36 4.36C7.8 23.467 9.813 24 12 24s4.2-.533 6.04-1.6a11.793 11.793 0 0 0 4.36-4.36C23.467 16.2 24 14.187 24 12s-.533-4.2-1.6-6.04a11.793 11.793 0 0 0-4.36-4.36C16.2.533 14.187 0 12 0zm6 9.28v.4c0 1.387-.333 2.72-1 4a8.186 8.186 0 0 1-2.84 3.12c-1.333.853-2.827 1.28-4.48 1.28a8.535 8.535 0 0 1-4.56-1.28h.72c1.387 0 2.613-.427 3.68-1.28-.64 0-1.213-.2-1.72-.6-.507-.4-.867-.92-1.08-1.56l.56.16c.373 0 .64-.053.8-.16a2.67 2.67 0 0 1-1.72-1 2.913 2.913 0 0 1-.68-1.88c.427.267.88.4 1.36.4-.907-.533-1.36-1.36-1.36-2.48 0-.533.133-1.04.4-1.52.8.96 1.72 1.707 2.76 2.24a8.133 8.133 0 0 0 3.4.88c-.107-.16-.16-.4-.16-.72 0-.8.293-1.493.88-2.08s1.28-.88 2.08-.88 1.547.293 2.24.88c.48-.107 1.12-.347 1.92-.72-.213.747-.64 1.28-1.28 1.6H18c.747-.16 1.28-.32 1.6-.48-.533.693-1.067 1.253-1.6 1.68z"
+                  ></path>
+                </svg> </span
+            ></a>
+            <a href="#"
+              ><span
+                ><svg
+                  class="social-link-icon ms-3"
+                  width="30px"
+                  fill="#555"
+                  height="30px"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 0C9.813 0 7.8.533 5.96 1.6A11.793 11.793 0 0 0 1.6 5.96C.533 7.8 0 9.813 0 12s.533 4.2 1.6 6.04a11.793 11.793 0 0 0 4.36 4.36C7.8 23.467 9.813 24 12 24s4.2-.533 6.04-1.6a11.793 11.793 0 0 0 4.36-4.36C23.467 16.2 24 14.187 24 12s-.533-4.2-1.6-6.04a11.793 11.793 0 0 0-4.36-4.36C16.2.533 14.187 0 12 0zm3.12 12h-2v7.2H10.4V12H8.64V9.52h1.76V8c0-1.12.187-1.92.56-2.4.427-.587 1.2-.88 2.32-.88h2V7.2h-1.2c-.427 0-.693.067-.8.2-.107.133-.16.387-.16.76v1.2h2.16L15.12 12z"
+                  ></path></svg></span
+            ></a>
+            <a href="#"
+              ><span
+                ><svg
+                  class="social-link-icon ms-3"
+                  width="30px"
+                  fill="#555"
+                  height="30px"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M11.28 17.6a.604.604 0 0 1-.2.24.43.43 0 0 1-.24.08c-.08 0-.133-.027-.16-.08a.557.557 0 0 1-.04-.24v-2.96h-.72v3.28a1 1 0 0 0 .12.52c.08.133.2.2.36.2.16 0 .307-.053.44-.16.133-.107.28-.24.44-.4v.48H12v-3.92h-.72v2.96zM6.96 14v-.8H9.6v.8h-.88v4.56h-.88V14h-.88zm4.96-4.72c-.107 0-.2-.04-.28-.12a.384.384 0 0 1-.12-.28v-2.4c0-.053.027-.107.08-.16.053-.053.147-.08.28-.08.133 0 .24.027.32.08a.27.27 0 0 1 .12.24v2.32c0 .107-.04.2-.12.28a.384.384 0 0 1-.28.12zm2 8.32c0-.64.027-1.307.08-2 0-.107-.04-.2-.12-.28-.08-.08-.16-.12-.24-.12h-.12l-.24.16v2.4l.24.16.16.08c.107 0 .173-.027.2-.08.027-.053.04-.16.04-.32zm.08-3.04c.213 0 .387.08.52.24.133.16.2.4.2.72v2.24c0 .267-.053.48-.16.64a.422.422 0 0 1-.44.2 2.1 2.1 0 0 1-.48-.12.506.506 0 0 1-.28-.24v.32h-.8V13.2h.8v1.76c.107-.107.213-.2.32-.28a.532.532 0 0 1 .32-.12zm3.92 5.12c.267-.213.427-.907.48-2.08.053-.587.107-1.147.16-1.68 0-.48-.053-1.013-.16-1.6-.107-1.173-.28-1.893-.52-2.16-.24-.267-1.267-.453-3.08-.56l-2.64-.08-2.72.08c-1.813.107-2.84.293-3.08.56-.24.267-.413.987-.52 2.16a16.07 16.07 0 0 0-.08 1.6c0 .533.027 1.093.08 1.68.107 1.173.28 1.88.52 2.12.24.24 1.267.44 3.08.6l2.72.08 2.64-.08c1.813-.16 2.853-.347 3.12-.56v-.08zM8.4 4h-.96l1.12 3.6v2.24h.96v-2.4L10.64 4h-.96l-.56 2.32h-.08L8.4 4zm2.32 2.56V8.8c0 .373.107.667.32.88.213.213.507.32.88.32s.667-.107.88-.32c.213-.213.32-.507.32-.88V6.56c0-.32-.107-.587-.32-.8-.213-.213-.507-.32-.88-.32s-.667.107-.88.32c-.213.213-.32.48-.32.8zm3.12-.96v3.6a1 1 0 0 0 .12.52c.08.133.213.2.4.2.187 0 .36-.04.52-.12.16-.08.32-.2.48-.36v.48h.88V5.6h-.88v3.2a.523.523 0 0 1-.24.24.645.645 0 0 1-.28.08c-.08 0-.133-.013-.16-.04-.027-.027-.04-.093-.04-.2V5.52h-.8v.08zM12 0c2.187 0 4.2.533 6.04 1.6a11.793 11.793 0 0 1 4.36 4.36C23.467 7.8 24 9.813 24 12s-.533 4.2-1.6 6.04a11.793 11.793 0 0 1-4.36 4.36C16.2 23.467 14.187 24 12 24s-4.2-.533-6.04-1.6a11.793 11.793 0 0 1-4.36-4.36C.533 16.2 0 14.187 0 12s.533-4.2 1.6-6.04A11.793 11.793 0 0 1 5.96 1.6C7.8.533 9.813 0 12 0zm4.56 16.08l-.08-.4c0-.16-.027-.28-.08-.36a.27.27 0 0 0-.24-.12.27.27 0 0 0-.24.12c-.053.08-.08.2-.08.36v.4h.72zm-.32-1.52c.32 0 .573.093.76.28.187.187.28.467.28.84v.96h-1.44v.8c0 .16.027.28.08.36.053.08.147.12.28.12.133 0 .227-.04.28-.12.053-.08.08-.227.08-.44v-.16h.72v.24c0 .373-.093.667-.28.88-.187.213-.453.32-.8.32-.347 0-.613-.107-.8-.32-.187-.213-.28-.507-.28-.88v-1.76c0-.32.107-.587.32-.8.213-.213.48-.32.8-.32z"
+                  ></path></svg></span
+            ></a>
+            <a href="#"
+              ><span
+                ><svg
+                  class="social-link-icon ms-3"
+                  width="30px"
+                  fill="#555"
+                  height="30px"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M16 12.48a4.723 4.723 0 0 1-.56 1.48 3.93 3.93 0 0 1-1.04 1.16 3.428 3.428 0 0 1-1.92.68 3.628 3.628 0 0 1-1.96-.48 3.414 3.414 0 0 1-1.4-1.48c-.48-.96-.587-1.973-.32-3.04H7.68l.08 5.52c0 .107.04.213.12.32.08.107.173.16.28.16h8.32c.107 0 .213-.053.32-.16.107-.107.16-.213.16-.32V10.8h-1.12c.16.533.213 1.093.16 1.68zm-3.68 2c.64 0 1.2-.24 1.68-.72s.72-1.053.72-1.72a2.56 2.56 0 0 0-.68-1.76c-.453-.507-1.013-.76-1.68-.76s-1.24.24-1.72.72-.72 1.053-.72 1.72.227 1.253.68 1.76c.453.507 1 .76 1.64.76h.08zm4.16-7.6h-1.12c-.107 0-.213.053-.32.16-.107.107-.16.213-.16.32v1.36c.107.213.267.32.48.32h1.12c.16 0 .28-.053.36-.16a.532.532 0 0 0 .12-.32v-1.2c0-.107-.053-.213-.16-.32-.107-.107-.213-.16-.32-.16zM12 0C9.813 0 7.8.533 5.96 1.6A11.793 11.793 0 0 0 1.6 5.96C.533 7.8 0 9.813 0 12s.533 4.2 1.6 6.04a11.793 11.793 0 0 0 4.36 4.36C7.8 23.467 9.813 24 12 24s4.2-.533 6.04-1.6a11.793 11.793 0 0 0 4.36-4.36C23.467 16.2 24 14.187 24 12s-.533-4.2-1.6-6.04a11.793 11.793 0 0 0-4.36-4.36C16.2.533 14.187 0 12 0zm6.24 16.88l-.08.08v.08a.926.926 0 0 1-.28.68 1.3 1.3 0 0 1-.68.36H7.52a.871.871 0 0 1-.68-.32 1.536 1.536 0 0 1-.36-.72l-.08-.16.08-9.84c0-.267.093-.507.28-.72.187-.213.413-.347.68-.4h9.68a1.3 1.3 0 0 1 .68.36 1.3 1.3 0 0 1 .36.68l.08 9.92z"
+                  ></path></svg></span
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section
+        id="footer-id"
+        class="d-flex flex-column flex-md-row justify-content-between"
+      >
+        <div class="d-flex flex-column flex-md-row mt-4">
+          <div id="location-label" class="d-flex me-3">
+            <a href="#" class="text-white">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                viewBox="0 0 24 24"
+                role="img"
+                width="18px"
+                height="15px"
+                fill="none"
+              >
+                <path
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  d="M4.5 9.001a7.5 7.5 0 1115 0c0 1.205-.385 2.576-.934 3.928-.555 1.364-1.302 2.767-2.08 4.055a39.918 39.918 0 01-2.307 3.405c-.688.905-1.316 1.632-1.711 1.947a.75.75 0 01-.936 0c-.395-.315-1.023-1.042-1.711-1.947a39.916 39.916 0 01-2.306-3.405c-.78-1.288-1.526-2.691-2.08-4.056-.55-1.351-.935-2.722-.935-3.927zM12 12.25a3.25 3.25 0 100-6.5 3.25 3.25 0 000 6.5z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>India</span>
+            </a>
+          </div>
+          <div>
+            <span id="copyright">© 2023 Nike, Inc. All Rights Reserved</span>
+          </div>
+        </div>
+        <div id="footer-menu" class="d-flex flex-column flex-md-row mt-4">
+          <div class="">
+            <a href="#"><span>Guides</span></a>
+            <div class="guide-bar text-start">
+              <div class="d-md-flex">
+                <div class="d-flex flex-column pe-5">
+                  <a href="#"><span>Nike Adapt</span></a>
+                  <a href="#"><span>Nike Air Max</span></a>
+                  <a href="#"><span>Nike Flyleather</span></a>
+                  <a href="#"><span>Nike Pegasus</span></a>
+                  <a href="#"><span>Nike Zoom Fly</span></a>
+                </div>
+                <div class="d-flex flex-column pe-5">
+                  <a href="#"><span>Nike Air</span></a>
+                  <a href="#"><span>Nike FlyEase</span></a>
+                  <a href="#"><span>Nike Free</span></a>
+                  <a href="#"><span>Nike React</span></a>
+                  <a href="#"><span>Nike ZoomX</span></a>
+                </div>
+                <div class="d-flex flex-column pe-5">
+                  <a href="#"><span>Nike Air Force 1</span></a>
+                  <a href="#"><span>Nike Flyknit</span></a>
+                  <a href="#"><span>Nike Joyride</span></a>
+                  <a href="#"><span>Nike Vapofly</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a href="#"><span>Terms of Sale</span></a>
+          </div>
+          <div>
+            <a href="#"><span>Terms of Use</span></a>
+          </div>
+          <div>
+            <a href="#" class="pe-0"><span>Nike Privacy Policy</span></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="bootstrap/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

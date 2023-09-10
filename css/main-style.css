@@ -1,0 +1,392 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  max-width: 1899.98px;
+  margin: auto;
+}
+/*________header start__________*/
+.head-info {
+  padding: 0% 3%;
+  background-color: rgb(240, 240, 240);
+}
+.head-item {
+  font-size: 0.6rem;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+#head-information a:hover {
+  color: rgb(161, 161, 161);
+}
+.head-item > div a > span {
+  border-left: 0.01rem solid #000;
+  padding: 0rem 0.5rem;
+}
+.head-icon {
+  height: 35px;
+}
+.help-bar {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  background-color: #ffffff;
+  top: calc(100%);
+  right: 0%;
+  width: 240px;
+  padding: 24px 24px 24px 16px;
+  border-radius: 0px 0px 20px 20px;
+  transition: all 300ms;
+  visibility: hidden;
+}
+.help-bar > div > span {
+  padding: 0px 8px 2px 8px;
+}
+.head-item > div:hover .help-bar {
+  opacity: 1;
+  top: calc(100% + 11px);
+  transition: all ease-in 300ms;
+  visibility: visible;
+  z-index: 99;
+}
+.head-item > div .help-bar:hover {
+  opacity: 1;
+  z-index: 99;
+  top: calc(100% + 11px);
+  visibility: visible;
+}
+.help-bar > div > span:hover {
+  color: #000;
+  cursor: pointer;
+}
+/*______*/
+/*______navbar start__________*/
+
+/**/
+.navbar-nike {
+  margin: 0;
+  padding: 0 4%;
+  z-index: -99;
+}
+.search {
+  background-color: rgb(245, 245, 245);
+  border-radius: 30px;
+  height: fit-content;
+  width: fit-content;
+  padding: 0rem 0.1rem;
+  margin: 5% 0 0 0;
+  align-items: center;
+}
+
+input:hover,
+.search:hover {
+  background-color: rgb(224, 224, 224);
+}
+input {
+  width: 6rem;
+  font-size: 16px;
+  height: 2rem;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(245, 245, 245);
+}
+input:focus {
+  outline: none;
+}
+ul {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+li {
+  padding: 20px 12px 0px 8px;
+  justify-content: center;
+  align-items: end;
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
+  border-bottom: 2px solid #fff;
+  height: 100%;
+}
+li:hover {
+  border-bottom: 2px solid #000000;
+  cursor: pointer;
+}
+.nav-bar-head {
+  width: 100%;
+  height: max-content;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  background-color: #ffffff;
+  top: calc(100%);
+  right: 0%;
+  padding: 24px 24px 24px 16px;
+  border-radius: 0px 0px 20px 20px;
+  visibility: hidden;
+}
+.nav-bar-head div span {
+  padding: 0px 8px 2px 8px;
+}
+.head-item li:hover .nav-bar-head {
+  padding: 3% 10%;
+  opacity: 1;
+  top: calc(65%);
+  transition: ease 300ms;
+  visibility: visible;
+  z-index: 99;
+}
+.head-item div + .nav-bar-head:hover {
+  opacity: 1;
+  z-index: 99;
+  top: calc(65%);
+  visibility: visible;
+}
+.nav-bar-head div span:hover {
+  color: #000;
+  cursor: pointer;
+}
+.nav-icon {
+  padding: 0.2rem;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+}
+.nav-icon:hover {
+  background-color: #e4e4e4;
+}
+nav div div:has(> .nav-icon) {
+  align-items: center;
+}
+/*______navbar end__________*/
+/*________header end__________*/
+/*____________body start__________*/
+.body {
+  padding: 0rem 3%;
+  font-size: 17px;
+}
+.btn {
+  border-radius: 20px;
+  width: 100px;
+  font-size: 0.75rem;
+  align-items: center;
+  font-weight: 500;
+}
+.body .btn:hover {
+  background-color: rgb(136, 136, 136) !important;
+}
+.title {
+  font-size: 65px;
+  font-weight: 800;
+  letter-spacing: -4px;
+  display: inline-block;
+  transform: scale(1, 1.25);
+  word-spacing: 10px;
+  text-transform: uppercase;
+}
+/*_________swiper start_________*/
+/**/
+@media only screen and (max-width: 767.98px) {
+  .swiper-slide {
+    min-width: 100%;
+    font-size: large;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+  #delete-btn {
+    min-width: 100%;
+    left: 0;
+    right: 0;
+  }
+  #essentials button {
+    font-size: 25px;
+    border-radius: 40px;
+    padding: 10px 30px;
+  }
+  #select-bar .nike-bar a {
+    display: none;
+  }
+}
+.swiper {
+  width: 100%;
+}
+.swiper-slide > div {
+  text-align: left;
+  font-size: 0.7rem;
+  background: #fff;
+  align-content: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: black;
+  background-color: rgb(223, 223, 223);
+  padding: 1.05rem;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+  right: 0%;
+  left: 0%;
+  top: 0%;
+  margin: 10px 5px;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 12px;
+  font-weight: bold;
+}
+.section-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0 0 10px 0;
+  color: rgb(17, 17, 17);
+}
+.body section {
+  margin: 0px 0px 55px 0px;
+}
+/*_________swiper end_________*/
+#essentials img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  clip-path: inset(0 1% 0 1%);
+}
+#essentials div > div {
+  height: 540px;
+}
+#essentials div > div > a {
+  position: relative;
+}
+#essentials div > div button {
+  position: absolute;
+  z-index: 99;
+  top: 900%;
+  left: 10%;
+}
+#select-bar {
+  margin: 4% 4% 4% 15%;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 28px;
+}
+.hidden-nike-bar {
+  opacity: 0;
+  height: 0;
+  visibility: hidden;
+}
+#select-bar .nike-bar:hover .hidden-nike-bar {
+  height: fit-content;
+  opacity: 1;
+  visibility: visible;
+  transition: all ease-in 700ms;
+  z-index: 99;
+}
+#select-bar > div > div + .help-bar:hover {
+  opacity: 1;
+  visibility: visible;
+  transition: all ease-in 700ms;
+  z-index: 99;
+}
+#select-bar a:hover span {
+  color: #000;
+  cursor: pointer;
+}
+#select-bar span {
+  color: rgb(148, 148, 148);
+}
+#select-bar .nike-bar:hover {
+  max-height: fit-content;
+  transition: all ease-in 1000ms;
+}
+/*_________footer start________*/
+.footer {
+  padding: 0rem 3%;
+  font-family: Helvetica;
+}
+.footer-title {
+  font-size: 11px;
+  padding: 40px 0 4px 0;
+  font-weight: 400;
+}
+.footer-title a span {
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 24px;
+  padding: 0.4% 0;
+  font-weight: 400;
+}
+.footer-bar {
+  width: max-content;
+}
+.footer-bar a {
+  font-size: 12px;
+  line-height: 28px;
+  color: rgb(128, 128, 128);
+}
+#footer a:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+#footer .social-link-icon:hover {
+  cursor: pointer;
+  fill: #fff;
+  transition: all 400ms;
+}
+#copyright {
+  font-size: 12px;
+  color: rgb(128, 128, 128);
+}
+#location-label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 24px;
+  padding: 0.4% 0;
+}
+#footer-menu > div a {
+  color: #7e7e7e;
+  font-size: 12px;
+  padding: 8px 10px;
+}
+#footer-menu > div > a:hover {
+  color: #fff;
+}
+#footer-menu .guide-bar {
+  display: none;
+  position: absolute;
+  border: 1px solid #fff;
+  padding: 5px 9px 5px 9px;
+  margin: 0 -4px 0 -4px;
+  max-height: fit-content;
+  max-width: fit-content;
+  bottom: 13%;
+  right: 4.5%;
+}
+#footer-menu > div:hover .guide-bar {
+  display: block;
+  z-index: 99;
+}
+#footer-menu .guide-bar span:hover {
+  color: #fff;
+}
+
+/*_________footer end________*/
+/*____________body end__________*/
